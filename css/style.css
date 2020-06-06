@@ -427,13 +427,15 @@ h6 {
 }
 
 .img-block__col_8 {
-  -ms-flex-preferred-size: 66.666%;
-      flex-basis: 66.666%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
 }
 
 .img-block__col_4 {
-  -ms-flex-preferred-size: 33.333%;
-      flex-basis: 33.333%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
 }
 
 .box-logo {
@@ -544,13 +546,15 @@ h6 {
 }
 
 .shop__col-2 {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
 }
 
 .shop__col-4 {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 100%;
+          flex: 0 1 100%;
 }
 
 .plate {
@@ -565,8 +569,9 @@ h6 {
 }
 
 .plate__row {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -574,8 +579,9 @@ h6 {
 
 .plate__col {
   height: 100%;
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
 }
 
 .plate-item {
@@ -1009,11 +1015,11 @@ h6 {
   }
 
   .nav {
-    -webkit-box-ordinal-group: inherit;
-        -ms-flex-order: inherit;
-            order: inherit;
-    -ms-flex-preferred-size: inherit;
-        flex-basis: inherit;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -1085,9 +1091,9 @@ h6 {
   }
 
   .order-1 {
-    -webkit-box-ordinal-group: inherit;
-        -ms-flex-order: inherit;
-            order: inherit;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
   }
 
   .img-block__row {
@@ -1095,6 +1101,18 @@ h6 {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+
+  .img-block__col_8 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 66.666%;
+            flex: 0 1 66.666%;
+  }
+
+  .img-block__col_4 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 33.333%;
+            flex: 0 1 33.333%;
   }
 
   .box-logo {
