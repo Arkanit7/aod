@@ -630,6 +630,10 @@ h6 {
           align-items: center;
 }
 
+.shop__bottom h2 {
+  display: inline;
+}
+
 .contact__body {
   padding: 3.125rem 8px 3.125rem;
   display: -webkit-box;
