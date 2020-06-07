@@ -632,6 +632,8 @@ h6 {
 
 .shop__bottom h2 {
   display: inline;
+  position: relative;
+  z-index: 1;
 }
 
 .contact__body {
